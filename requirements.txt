@@ -1,6 +1,6 @@
 astroid==2.4.2
 blinker==1.4
-Brlapi==0.6.0
+Brlapi==6.0
 caffeine==2.9.4
 certifi==2019.11.28
 chardet==3.0.4
