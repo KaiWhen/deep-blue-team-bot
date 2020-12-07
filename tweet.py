@@ -25,8 +25,10 @@ split_text = f.split("\n====================\n")
 
 valid_text = [x for x in split_text if len(x) <= 280]
 
-tweet = np.random.choice(valid_text, 1)
-api.update_status(tweet[0])
+for x in range(5)
+    tweet = np.random.choice(valid_text, 1)
+    api.update_status(tweet[0])
+    time.sleep(600)
 #for line in f:
  #   api.update_status(line)
   #  time.sleep(3600)
