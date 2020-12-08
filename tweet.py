@@ -9,15 +9,19 @@ import numpy as np
 
 argfile = str(sys.argv[1])
 
-CONSUMER_KEY = environ['CONSUMER_KEY']
-CONSUMER_SECRET = environ['CONSUMER_SECRET']
-ACCESS_KEY = environ['ACCESS_KEY']
-ACCESS_SECRET = environ['ACCESS_SECRET']
+# CONSUMER_KEY = environ['CONSUMER_KEY']
+# CONSUMER_SECRET = environ['CONSUMER_SECRET']
+# ACCESS_KEY = environ['ACCESS_KEY']
+# ACCESS_SECRET = environ['ACCESS_SECRET']
+CONSUMER_KEY = 'RaDEFbB8tmAxOEBYX2ZtipJZk'
+CONSUMER_SECRET = 'KTFj9McItyxHfN4PdMM3i2Qf76JCPknbjMJXgrFbrzRLllo6Az'
+ACCESS_KEY = '2837462536-OEZaStbqkUk3lqziVwu8s1rv258CZH3HVbyWiMO'
+ACCESS_SECRET = '1wVVVLl6hceNi3VB4xLuEzUdZRk4BpDIdW2wSW05MkYUb'
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
-filename=open(argfile,'r')
+filename=open(argfile, 'r')
 f=filename.read()
 filename.close()
 
