@@ -1,1 +1,1 @@
-worker: python tweet.py blue-team-generated-1.txt
+worker: python tweet.py generated-05-21-merged.txt
